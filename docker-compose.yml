@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  agent:
+    image: uanid/lightweight-azure-pipeline-agent:latest
+    environment:
+      AZP_URL: https://dev.azure.com/<enter-your-organization>
+      AZP_TOKEN: <enter-your-access-token>
+      AZP_AGENT_NAME: <enter-your-agent-pool>
+    privileged: true
