@@ -13,7 +13,7 @@ services:
     environment:
       AZP_URL: https://dev.azure.com/<enter-your-organization>
       AZP_TOKEN: <enter-your-access-token>
-      AZP_AGENT_NAME: <enter-your-agent-pool>
+      AZP_POOL: <enter-your-agent-pool>
     privileged: true
 ```
 
